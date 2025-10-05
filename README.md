@@ -149,6 +149,7 @@ This application is for **educational and informational purposes only**. It shou
 - [ ] Include multiple model comparison in UI
 - [ ] Add patient history tracking
 - [ ] Export prediction reports as PDF
+- [ ] Test more models on similar dataset to increase accuracy 
 
 ## 🤝 Contributing
 
