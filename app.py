@@ -133,14 +133,9 @@ if predict_button:
     })
     
     st.dataframe(input_df, use_container_width=True, hide_index=True)
-    
-    # TODO: Replace this with your actual model prediction
+    
     prediction = model.predict(input_data)
-    prediction_proba = model.predict_proba(input_data)
-    
-    # Placeholder prediction (replace with actual model)
-    prediction = np.random.choice([0, 1])  # Remove this line
-    prediction_proba = np.random.rand()     # Remove this line
+    prediction_proba = model.predict_proba(input_data)
     
     st.markdown("---")
     st.subheader("🎯 Prediction Result")
