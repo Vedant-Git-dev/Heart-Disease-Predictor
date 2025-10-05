@@ -163,7 +163,7 @@ if predict_button:
     # Confidence score
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.metric("Confidence Score", f"{prediction_proba*100:.1f}%")
+        st.metric("Chance of Heart Disease", f"{prediction_proba*100:.1f}%")
     
     st.info("⚕️ **Disclaimer:** This prediction is for informational purposes only and should not replace professional medical advice.")
 
